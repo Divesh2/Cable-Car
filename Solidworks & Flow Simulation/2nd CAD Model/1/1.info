@@ -1,0 +1,201 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2018 SP5.0. Build: 4373
+                Computer name:   GOLU_PC
+                User name:   Golu
+                Processors:   Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+                Memory:   3961 MB / 8388607 MB
+                Operating system:   Windows 7 Service Pack 1 (Version 6.1.7601)
+                CAD version:   SOLIDWORKS 2018 SP5.0
+                CPU speed:   2400 (1296) MHz
+
+    General Info
+                Model:   final ropeway.SLDASM
+                Project name:   Flow Simulation
+                Project path:   C:\Users\Golu\Documents\EAD\Solidworks\Flow SimulatioX\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (exclude internal spaces)
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   On
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Free surface:   Off
+                Default roughness:   297.0 micrometer
+
+        Gravitational Settings
+                X component:   0 m/s^2
+                Y component:   0 m/s^2
+                Z component:   -9.81 m/s^2
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -29.346 m
+                X max:   50.590 m
+                Y min:   -12.727 m
+                Y max:   22.273 m
+                Z min:   -7.399 m
+                Z max:   31.952 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   73
+                Number of cells in Y:   32
+                Number of cells in Z:   37
+
+        Number Of Cells
+                Cells:   89275
+                Fluid cells:   89275
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   1
+
+    Goals
+
+        Global Goals
+
+            GG Min Total Pressure 1
+                Type:   Global Goal
+                Goal type:   Total Pressure
+                Calculate:   Minimum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Av Total Pressure 1
+                Type:   Global Goal
+                Goal type:   Total Pressure
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Max Total Pressure 1
+                Type:   Global Goal
+                Goal type:   Total Pressure
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Min Velocity (X) 1
+                Type:   Global Goal
+                Goal type:   Velocity (X)
+                Calculate:   Minimum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Av Velocity (X) 1
+                Type:   Global Goal
+                Goal type:   Velocity (X)
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Max Velocity (X) 1
+                Type:   Global Goal
+                Goal type:   Velocity (X)
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Min Velocity (Y) 1
+                Type:   Global Goal
+                Goal type:   Velocity (Y)
+                Calculate:   Minimum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Av Velocity (Y) 1
+                Type:   Global Goal
+                Goal type:   Velocity (Y)
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Max Velocity (Y) 1
+                Type:   Global Goal
+                Goal type:   Velocity (Y)
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Min Velocity (Z) 1
+                Type:   Global Goal
+                Goal type:   Velocity (Z)
+                Calculate:   Minimum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Av Velocity (Z) 1
+                Type:   Global Goal
+                Goal type:   Velocity (Z)
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Max Velocity (Z) 1
+                Type:   Global Goal
+                Goal type:   Velocity (Z)
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Force (X) 1
+                Type:   Global Goal
+                Goal type:   Force (X)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Force (Y) 1
+                Type:   Global Goal
+                Goal type:   Force (Y)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Force (Z) 1
+                Type:   Global Goal
+                Goal type:   Force (Z)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name                      	Unit   	Value       	Progress   	Criteria        	Delta            	Use in convergence 
+                GG Min Total Pressure 1   	Pa     	100982.46   	100        	74.4471112      	1.69879041       	On                 
+                GG Av Total Pressure 1    	Pa     	101419.63   	100        	0.125342288     	0.113993894      	On                 
+                GG Max Total Pressure 1   	Pa     	101712.78   	100        	51.1654885      	3.03082884       	On                 
+                GG Min Velocity (X) 1     	m/s    	-7.512      	100        	0.287098465     	0.0920696398     	On                 
+                GG Av Velocity (X) 1      	m/s    	19.777      	100        	0.00661442168   	0.00089694357    	On                 
+                GG Max Velocity (X) 1     	m/s    	22.452      	100        	0.316756102     	0.022577806      	On                 
+                GG Min Velocity (Y) 1     	m/s    	-21.552     	100        	0.257145438     	0.0141149681     	On                 
+                GG Av Velocity (Y) 1      	m/s    	0.002       	100        	7.1776661e-05   	6.87867754e-05   	On                 
+                GG Max Velocity (Y) 1     	m/s    	21.573      	100        	0.25374485      	0.00422586543    	On                 
+                GG Min Velocity (Z) 1     	m/s    	-11.021     	100        	0.151698696     	0.11542231       	On                 
+                GG Av Velocity (Z) 1      	m/s    	2.029       	100        	0.0010255437    	5.81710225e-05   	On                 
+                GG Max Velocity (Z) 1     	m/s    	19.587      	100        	0.216239617     	0.0331615457     	On                 
+                GG Force (X) 1            	N      	5800.496    	100        	314.897324      	14.5686389       	On                 
+                GG Force (Y) 1            	N      	-69.994     	100        	8.01545958      	3.41638444       	On                 
+                GG Force (Z) 1            	N      	-1917.587   	100        	91.1964793      	8.46116302       	On                 
+
+    General Info
+                Run at:   GOLU_PC
+                Number of cores:   4
+                Iterations:   165
+                CPU time:   533 s
+
+        Log
+                Mesh generation started	0:   05:59:05 , Nov 01
+                Mesh generation normally finished	0:   05:59:16 , Nov 01
+                Preparing data for calculation	0:   06:00:51 , Nov 01
+                Calculation started	0:   06:00:59 , Nov 01
+                Calculation has converged since the following criteria are satisfied:	165:   06:09:46 , Nov 01
+                    Goals are converged	165:   
+                Calculation finished	165:   06:09:53 , Nov 01
